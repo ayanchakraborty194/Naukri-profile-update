@@ -415,7 +415,7 @@ def main():
     log_msg("-----Naukri.py Script Run Ended-----\n")
 
 # Schedule the task to run every day at 10:00 AM
-schedule.every().day.at("10:00").do(main)
+schedule.every().day.at("20:50").do(main)
 
 # Run the scheduler continuously
 def run_scheduler():
