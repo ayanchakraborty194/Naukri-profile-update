@@ -7,6 +7,8 @@ import logging
 import os
 import sys
 import time
+import schedule
+import time
 from datetime import datetime
 from random import choice, randint
 from string import ascii_uppercase, digits
@@ -23,14 +25,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager as CM
 
 # Add folder Path of your resume
-originalResumePath = "original_resume.pdf"
+originalResumePath = "Resume/old/Resume of Ayan Chakraborty.pdf"
 # Add Path where modified resume should be saved
-modifiedResumePath = "modified_resume.pdf"
+modifiedResumePath = "Resume/updated/"
 
 # Update your naukri username and password here before running
-username = "Type Your email ID Here"
-password = "Type Your Password Here"
-mob = "1234567890"  # Type your mobile number here
+username = "ayanchakraborty194@gmail.com"
+password = "Ayan123#"
+mob = "8250971220"  # Type your mobile number here
 
 # False if you dont want to add Random HIDDEN chars to your resume
 updatePDF = True
@@ -412,6 +414,15 @@ def main():
 
     log_msg("-----Naukri.py Script Run Ended-----\n")
 
+# Schedule the task to run every day at 10:00 AM
+schedule.every().day.at("10:00").do(main)
+
+# Run the scheduler continuously
+def run_scheduler():
+    while True:
+        schedule.run_pending()
+        time.sleep(60)  # Check every 60 seconds
 
 if __name__ == "__main__":
-    main()
+    # Start the scheduler when the script is executed
+    run_scheduler()
