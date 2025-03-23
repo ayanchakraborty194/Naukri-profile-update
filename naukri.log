@@ -1,0 +1,26 @@
+2025-03-23 21:12:29,179    : -----Naukri.py Script Run Begin-----
+2025-03-23 21:12:29,179    : ====== WebDriver manager ======
+2025-03-23 21:12:30,899    : Get LATEST chromedriver version for google-chrome
+2025-03-23 21:12:31,685    : Get LATEST chromedriver version for google-chrome
+2025-03-23 21:12:32,280    : There is no [win64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
+2025-03-23 21:12:32,281    : Get LATEST chromedriver version for google-chrome
+2025-03-23 21:12:33,650    : WebDriver version 134.0.6998.165 selected
+2025-03-23 21:12:33,654    : Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-23 21:12:33,654    : About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-23 21:12:34,304    : Driver downloading response is 200
+2025-03-23 21:12:38,912    : Get LATEST chromedriver version for google-chrome
+2025-03-23 21:12:40,095    : Driver has been saved in cache [D:\Naukri-profile-update\.wdm\drivers\chromedriver\win64\134.0.6998.165]
+2025-03-23 21:12:43,764    : Google Chrome Launched!
+2025-03-23 21:12:46,064    : Website Loaded Successfully.
+2025-03-23 21:13:01,989    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-03-23 21:13:03,021    : Naukri Login Successful
+2025-03-23 21:13:16,433    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-03-23 21:13:37,826    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-03-23 21:13:40,834    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-03-23 21:13:40,834    : Mobile number element not found in UI
+2025-03-23 21:13:41,855    : Profile Update Successful
+2025-03-23 21:13:46,857    : Resume not found at Resume/old/Resume of Ayan Chakraborty.pdf 
+2025-03-23 21:13:47,043    : Driver Closed Successfully
+2025-03-23 21:13:49,199    : Driver Quit Successfully
+2025-03-23 21:13:49,200    : -----Naukri.py Script Run Ended-----
+
